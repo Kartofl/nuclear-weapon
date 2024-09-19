@@ -1,24 +1,65 @@
-.try1 {
-    color: blue;
-    font-size: 16px;
-	border: thick double #32a1ce;
-	line-height: 40px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.try2 {
-    color: red;
-    font-size: 20px;
-    border: 3px dashed red;
-	line-height: 40px;
+header, footer {
+    background-color: #0A2647;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 
-.try3 {
-    color: green;
-    font-size: 18px;
-    border: 1px dotted green;
-	line-height: 40px;
+aside {
+    background-color: #144272;
+    padding: 15px;
+    width: 20%;
+    float: left;
+}
+
+main {
+    padding: 15px;
+    width: 60%;
+    float: left;
+}
+
+section {
+    background-color: #205295;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+article {
+    background-color: #6EACDA;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    clear: both;
+}
+
+a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 
+.colored-text {
+    color: white;
+}
 
+.colored-link {
+    color: #1e90ff; 
+}
 
+.colored-link:hover {
+    color: #00ff00; 
+}
